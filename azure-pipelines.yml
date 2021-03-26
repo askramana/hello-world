@@ -17,7 +17,7 @@ steps:
     PathtoPublish: 'target'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-    FileCopyOptions: '**/*.jar'
+    FileCopyOptions: '*.jar'
 
 # Maven
 - task: Maven@3
