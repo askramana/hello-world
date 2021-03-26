@@ -32,7 +32,7 @@ steps:
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
-    sonarQubeRunAnalysis: true
+    sonarQubeRunAnalysis: false
     sqMavenPluginVersionChoice: 'latest'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
